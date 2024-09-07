@@ -1,0 +1,65 @@
+.nav {
+    --padding: 8px 8px;
+    --br:5px;
+
+    height: 65px;
+    background-color: #0A146E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.a {
+    padding: var(--padding);
+    border-radius: var(--br);
+    margin: 0 10px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--button-text-size);
+    color: #F1FFFF;
+}
+
+.a:hover {
+    background-color: var(--main-hover-color);
+
+}
+
+.firstDiv {
+    display: flex;
+    align-items: center;
+}
+
+.firstDiv>div {
+    margin-left: 20px;
+}
+
+.firstDiv>div>a:first-child {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--button-text-size);
+    color: #F1FFFF;
+    margin-right: 10px;
+    padding: var(--padding);
+    border-radius: var(--br);
+}
+
+.firstDiv > div > a:first-child:hover {
+    background-color: #3B438B;
+}
+
+.firstDiv>div>a:last-child {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--button-text-size);
+    color: #9AA0C5;
+    margin-left: 10px;
+    padding: var(--padding);
+    border-radius: var(--br);
+}
+
+.firstDiv > div > a:last-child:hover {
+    background-color: var(--main-hover-color);
+}

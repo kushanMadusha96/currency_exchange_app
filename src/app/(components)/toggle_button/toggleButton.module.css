@@ -1,0 +1,16 @@
+.toggleContainer {
+    display: flex;
+    flex: 1;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    color: #1A86FA;
+    font-weight: bold
+}
+
+.toggleContainer:hover {
+    background-color: red;
+}

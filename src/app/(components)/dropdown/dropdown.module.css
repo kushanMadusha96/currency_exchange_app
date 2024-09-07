@@ -1,0 +1,39 @@
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+}
+
+.leftSide img {
+    margin-right: 8px;
+}
+
+.countryName {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    cursor: pointer;
+}

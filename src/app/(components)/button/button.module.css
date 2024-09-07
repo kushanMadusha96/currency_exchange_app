@@ -1,0 +1,26 @@
+.button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--button-text-color);
+}
+
+.button:hover {
+    background-color: #3B438B;
+}
+
+.coler_button {
+    padding: 6px 20px;
+    background-color: var(--main-button-color);
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--button-text-size);
+    color: var(--button-text-color);
+}
+
+.coler_button:hover {
+    background-color: var(--main-button-hover-color);
+}
