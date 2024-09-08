@@ -1,0 +1,93 @@
+.container {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container>span {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 10px 0 5px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formFirstDiv,
+.formSecondDiv {
+    margin: 8px 0;
+}
+
+.formFirstDiv>label,
+.formSecondDiv>label {
+    display: block;
+}
+
+.formSecondDiv>div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.formFirstDiv>input,
+.formSecondDiv>div>input {
+    width: 320px;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+
+.formSecondDiv>div>input {
+    padding: 0 35px 0 10px;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+}
+
+.formFirstDiv>span,
+.formSecondDiv>span {
+    display: block;
+    max-width: 320px;
+    color: gray;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.btnContinue {
+    background-color: var(--main-button-color);
+    color: var(--button-text-color);
+    font-size: var(--button-text-size);
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 18px 0 18px 0;
+}
+
+.signinText {
+    font-size: 14px;
+}
+
+.link {
+    color: #1A86FA;
+    font-weight: 500;
+}

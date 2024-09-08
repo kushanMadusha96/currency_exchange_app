@@ -7,9 +7,12 @@ import ToggleButton from "./(components)/toggle_button/toggleButton";
 import Test from "../../test/test";
 import Footer from "./(components)/footer/footer";
 import Chart from "./(pages)/charts/page";
+import AuthForm from "./(components)/authform/authform";
+import SignUp from "./auth/signup/page";
+import SignIn from "./auth/signin/page";
 
 export default function Home() {
   return (
-    <Chart/>
+    <SignIn />
   );
 }
